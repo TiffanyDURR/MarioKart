@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/*  CHARTE GRAPHIQUE
+------------------------------------------------------------------------------------------------------------
+
+Couleurs ;
+#23243C
+#4B516B
+#9D8F9C
+#CCB1AB
+#F5EEEA
+
+Typographies ;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+  background: url(assets/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.course {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.course .temps {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course img {
+  width: 240px;
+  height: auto;
+  display: block;
+}
+
+img.name {
+  width: 160px;
+  margin-bottom: 16px;
+}
+
+.course div {
+  border: 0px dashed aliceblue;
+  padding: 8px;
+  text-align: left;
+  width: 256px;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 22px;
+  margin-bottom: 24px;
+  color: aliceblue;
+  background-color: #358be0;
+  padding: 16px;
+}
+
+h1 img {
+  height: 40px;
+  margin-right: 16px;
+}
+
+h2 {
+  margin-top: 16px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+p {
+  margin-top: 4px;
+  color: aliceblue;
+  font-weight: 900;
+  font-size: 26px;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.special {
+  background-color: #a13643;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.logo img {
+  width: 620px;
+}
+
+.todo {
+  background-color: black;
+}
